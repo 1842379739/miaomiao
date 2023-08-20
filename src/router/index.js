@@ -1,22 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import movieRouter from './movie'
+import mineRouter from './mine'
+import cinemaRouter from './cinema'
 
 Vue.use(VueRouter)
 
 const routes = [
+  movieRouter,
+  mineRouter,
+  cinemaRouter,
+  // 重定向
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '*',
+    redirect: '/movie'
   }
 ]
 
