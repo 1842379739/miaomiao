@@ -1,0 +1,468 @@
+{
+    "status": 0,
+    "data": {
+        "films": [
+            {
+                "filmId": 6498,
+                "name": "最后的真相",
+                "poster": "https://pic.maizuo.com/usr/movie/d6e4e816b5142630a6204839d5f0bbf2.jpg",
+                "actors": [
+                    {
+                        "name": "李太阁",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/e54539353daf9052699de2d604b4e8f7.jpg"
+                    },
+                    {
+                        "name": "黄晓明",
+                        "role": "丁义峰",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f13e0f0f69f0dbc32cf837a56552a135.jpg"
+                    },
+                    {
+                        "name": "闫妮",
+                        "role": "金喜妹",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/d760dccb352ace3cf12b9a69d457d786.jpg"
+                    },
+                    {
+                        "name": "涂们",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/11398663506224f57ea4e86000a426ee.jpg"
+                    },
+                    {
+                        "name": "阚清子",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f6c356468225c463ef7ff3c7ddb9643b.jpg"
+                    }
+                ],
+                "director": "李太阁",
+                "category": "剧情|悬疑|犯罪",
+                "synopsis": "落魄律师丁义峰接到一桩看似证据确凿的“铁案”，他决心以“无罪辩护”东山再起。让人意想不到的是，嫌疑人金喜妹拒绝了丁义峰，竟一心求死。眼见是否必定为实？耳听是否必定为虚？重重迷雾之下，真相扑朔迷离……",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1692921600,
+                "timeType": 3,
+                "runtime": 112,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6506,
+                "name": "我本少年",
+                "poster": "https://pic.maizuo.com/usr/movie/419c79c2535a9b2cc02c228d385903ce.jpg",
+                "actors": [
+                    {
+                        "name": "白铭健",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/bc6a4d85e09267574d2a8052f9a47e53.jpg"
+                    },
+                    {
+                        "name": "吴吞",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/5dbd443f21f976865e2a9bcfbd0d0c1a.jpg"
+                    },
+                    {
+                        "name": "姜晨",
+                        "role": "吴文",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/86477dad5cfdccb2320120906acbb7a3.jpg"
+                    },
+                    {
+                        "name": "房子斌",
+                        "role": "吴建学",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b0f4851267c522e4ea5ae243c7167aa6.jpg"
+                    },
+                    {
+                        "name": "嘉泽",
+                        "role": "南宫花洛",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/64dc92b7f0694db919bbd08257199eb7.jpg"
+                    }
+                ],
+                "director": "白铭健|吴吞",
+                "category": "青春|励志|剧情",
+                "synopsis": "“天才”少年吴文考上国内重点大学，在填报志愿时不顾父亲的反对，选择了物理专业，但入学后的吴文却经历了一系列挫折，直至放弃学业回家。随着父亲向他吐露了隐藏许多年的秘密后，吴文终于决心重振旗鼓重返校园，挑战科技前沿，发明了用意识控制的量子芯片。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1693008000,
+                "timeType": 3,
+                "runtime": 85,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            },
+            {
+                "filmId": 6477,
+                "name": "觅渡",
+                "poster": "https://pic.maizuo.com/usr/movie/a398d5a4d6f652c892129211e3874087.jpg",
+                "actors": [
+                    {
+                        "name": "宁敬武",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/eeeb8635b86e0fb8799af1c258e52150.jpg"
+                    },
+                    {
+                        "name": "宋洋",
+                        "role": "瞿秋白",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/51092fc69ad924e77d568f552c54e0a0.jpg"
+                    },
+                    {
+                        "name": "张桐",
+                        "role": "张太雷",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/c85a17a66851bf37ba848f2f28046d75.jpeg"
+                    },
+                    {
+                        "name": "谷嘉诚",
+                        "role": "恽代英",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/0124988db1de8d4faf732d1c15f9dd34.jpg"
+                    },
+                    {
+                        "name": "冯文娟",
+                        "role": "杨之华",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/977939e706406fe1f820124077e5152a.jpg"
+                    }
+                ],
+                "director": "宁敬武",
+                "category": "历史|传记",
+                "synopsis": "本片以中国共产党早期三位重要领导人瞿秋白、张太雷、恽代英的革命经历为主线，讲述“常州三杰”坚持共产主义崇高信仰，在中国革命阵地上，展现他们短暂而光辉的人生、非凡而高尚的人格魅力、坚毅而浪漫的革命情怀。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1693180800,
+                "timeType": 3,
+                "runtime": 120,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            },
+            {
+                "filmId": 6495,
+                "name": "里奇不眠夜",
+                "poster": "https://pic.maizuo.com/usr/movie/677726af4c6c71ecaa69011bbbb4a663.jpg",
+                "actors": [
+                    {
+                        "name": "丁子峻",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/8d09a59b7aa9c89234ee6c2167d5df8a.jpg"
+                    },
+                    {
+                        "name": "高雨儿",
+                        "role": "胡思思",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/4223e332f69f8d13a2e64306db67ecc1.jpg"
+                    },
+                    {
+                        "name": "李子锋",
+                        "role": "许非",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/56e3eace5d992179e5133366116fa0f3.jpg"
+                    },
+                    {
+                        "name": "戴娇倩",
+                        "role": "琴姨",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/3f74adce67a7dd308963438089b835e3.jpg"
+                    },
+                    {
+                        "name": "张境佳",
+                        "role": "王七",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/65c0cd5cf68132ee9f2467cfab03d971.jpg"
+                    }
+                ],
+                "director": "丁子峻",
+                "category": "爱情|悬疑|惊悚",
+                "synopsis": "胡思思因生活所迫来到里奇旅店做临时替班，没想到这无奈的决定，让她变成一个失踪案件的替身。旅店藏着不可告人的秘密。当她踏入旅店的一瞬间，门铃一响，死亡游戏正式开始。随着失踪的前任员工、贪婪的经理、自私的门童、疯狂的清洁女工、嗜血的红衣幽灵等一一现身，仿佛翻开一张张的命运之牌，给到胡思思生死暗示。直到遇上她一见钟情的古怪房客许非，迅猛的爱情到底是爱的出路，还是人生尽头?\"爱和恨往往结伴而来\",难道这是我们宇宙的定律么?",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1693267200,
+                "timeType": 3,
+                "runtime": 96,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            },
+            {
+                "filmId": 6494,
+                "name": "看不见的他们",
+                "poster": "https://pic.maizuo.com/usr/movie/399a1028674b45520ad82c462c03fa32.jpg",
+                "actors": [
+                    {
+                        "name": "李飞",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/211a4102a26699f37d3b1a37e8e24cce.png"
+                    },
+                    {
+                        "name": "和佳蓉",
+                        "role": "林月",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/92467810c9d409456e386a3f9ab78672.png"
+                    },
+                    {
+                        "name": "毛凡",
+                        "role": "林国栋",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/7ad1b8f0b15d1c5be62bcfc12d9fc5ab.jpg"
+                    },
+                    {
+                        "name": "陈晓霞",
+                        "role": "白英",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/79eb2fe3a43ec9868f69203d7f1b84ad.png"
+                    },
+                    {
+                        "name": "孙盈艺",
+                        "role": "林箐",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/7a7c8e2c15229d9d6bc3d3dfbabfaacf.png"
+                    }
+                ],
+                "director": "李飞",
+                "category": "恐怖|惊悚",
+                "synopsis": "一场车祸后，林月家里怪事连连，全身冰冷的姐姐，镜子里看不见家人的身影，黑夜里爸爸窥探的双眼，每天凌晨阁楼传来的弹珠声，林月循声而上，当阁楼的门被打开，却发现里面紧锁的是自己的遗像，而这并不是真相，只是故事的开始，更加离奇的事情将接踵而至……",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1693526400,
+                "timeType": 3,
+                "runtime": 88,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6499,
+                "name": "意外人生",
+                "poster": "https://pic.maizuo.com/usr/movie/b5a9cae25a11315eaca1afb2652e4f01.jpg",
+                "actors": [
+                    {
+                        "name": "左志国",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/4e762b8860f7bbf72ff52e1aa1cce5f5.jpg"
+                    },
+                    {
+                        "name": "吴镇宇",
+                        "role": "潘义铭",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/39d3432ff8c97c8bdc0f7e8fa6d164a4.jpg"
+                    },
+                    {
+                        "name": "任素汐",
+                        "role": "林悦",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/2fd71f62af2dcf9bb2dcd8156cbbad98.jpg"
+                    },
+                    {
+                        "name": "李康生",
+                        "role": "华琪",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/8c619600b5fd90c722b03396db39f698.jpg"
+                    },
+                    {
+                        "name": "乌兰托雅·朵",
+                        "role": "木子",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/0668bc370bec95290461ba2336735df0.jpg"
+                    }
+                ],
+                "director": "左志国",
+                "category": "悬疑|犯罪|爱情",
+                "synopsis": "身在澳门的潘义铭 (吴镇宇 饰) 意外收到一份30年未见面的父亲的遗嘱，父亲留给他一笔巨额遗产，要求潘义铭参加葬礼才能继承。他遵守遗嘱回到了出生的中国南方小城。在这里，有他曾经的恋人林悦 (任素汐 饰) 、表面老实巴交的情敌华琪(李康生 饰) 、素未谋面的女儿木子 (乌兰托雅 饰) ，以及一些残留的记忆和错综交织的秘密与阴谋。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1693526400,
+                "timeType": 3,
+                "runtime": 90,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6502,
+                "name": "GT赛车：极速狂飙",
+                "poster": "https://pic.maizuo.com/usr/movie/2674ec5e0a319cf49c62931f7c5af63e.jpg",
+                "actors": [
+                    {
+                        "name": "尼尔·布洛姆坎普",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/bd93f0648d15a7d4c71e4af65bfb59ea.jpg"
+                    },
+                    {
+                        "name": "大卫·哈伯",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/e9fab3f3e5e8f12554b07a038692c3fd.jpg"
+                    },
+                    {
+                        "name": "奥兰多·布鲁姆",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/de75cd712f3736d22b14c2dd747cc848.jpg"
+                    },
+                    {
+                        "name": "阿奇·马德基",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/de2f4b85234d9fbb7c039320c0fc6036.jpg"
+                    },
+                    {
+                        "name": "达伦·巴奈特",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b9c2780938f8d471074aebd2e65f1365.jpg"
+                    }
+                ],
+                "director": "尼尔·布洛姆坎普",
+                "category": "冒险|运动|动作|剧情",
+                "synopsis": "影片讲述了一位平民游戏少年热血逐梦，成为职业赛车手的真实励志故事。从小怀揣赛车梦想的詹恩·马登伯勒被GT赛车学院挖掘，他凭借出色的游戏经验和自身的努力一次次打破外界质疑，彻底改写赛车运动是“富人专属”的规则。全球九大顶级赛道实地取景，豪华赛车齐聚，金牌导演尼尔·布洛姆坎普执导，用一场场令人屏息的纯正赛车对决，带你沉浸式感受生死一瞬的极速狂飙。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "美国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1693526400,
+                "timeType": 3,
+                "runtime": 135,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6507,
+                "name": "永安镇故事集",
+                "poster": "https://pic.maizuo.com/usr/movie/bb59bc28daa3b1ce5abf54cc90225711.jpg",
+                "actors": [
+                    {
+                        "name": "魏书钧",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/37ea4fd8104ae374c5af41f522c14f6a.jpg"
+                    },
+                    {
+                        "name": "杨子姗",
+                        "role": "陈晨",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/82f3e006a7fe3cc242d1812fccd2e944.jpg"
+                    },
+                    {
+                        "name": "黄米依",
+                        "role": "饭店老板娘",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/74d145e185881c41fb0fcffc6f836243.jpg"
+                    },
+                    {
+                        "name": "刘洋",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/40bf34f1635219d3388ce136dda52f64.jpg"
+                    },
+                    {
+                        "name": "康春雷",
+                        "role": "编剧",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/94c57d92610be5e9790ef47ea3ebbb58.jpg"
+                    }
+                ],
+                "director": "魏书钧",
+                "category": "剧情|喜剧",
+                "synopsis": "电影《永安镇故事集》是一部“关于电影”的电影，叙述了一个剧组入住拍摄地，给这个原本宁静的小镇带来一丝波澜，然而波澜过后，一切又重归宁静的故事。影片分为三个章节——独自等待、看上去很美、冥王星时刻，小镇和剧组串联起三个章节的故事和其中的人物——与小镇格格不入的饭店老板娘、回不去故乡的女明星、陷入创作分歧的导演与编剧……因为剧组的到来，每一个置身这座小镇的人心中都荡起一丝涟漪，但涟漪终会散去，一切也终将重归平静。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1694131200,
+                "timeType": 3,
+                "runtime": 123,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            },
+            {
+                "filmId": 6472,
+                "name": "我和班主任的故事",
+                "poster": "https://pic.maizuo.com/usr/movie/7e4223bf4b1b6616e140a0031760e9c2.jpg",
+                "actors": [
+                    {
+                        "name": "高峰",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/c3a454a89a0c161c5c906531402b344c.jpg"
+                    },
+                    {
+                        "name": "曹磊",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/5caf64580f8bbde7881a2ff36fff4344.jpg"
+                    },
+                    {
+                        "name": "赵菁",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/7e0d7ad4822563ce62acccfb3b0e5611.jpg"
+                    },
+                    {
+                        "name": "翟小兴",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/97446d746729ade65a3bb7e9515e8e61.jpg"
+                    },
+                    {
+                        "name": "宋庆",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/d906ec9fb56304e9ce011d8eeae5d6c4.jpg"
+                    }
+                ],
+                "director": "高峰",
+                "category": "青春|剧情",
+                "synopsis": "个性叛逆的高中生许小米（赵菁 饰）因成绩垫底被安排进学校的差生班，而正是这个特殊的班级迎来了位个性十足的班主任马力（曹磊 饰），在与这些孩子的极限拉扯下，他看到了每个孩子身上的闪光点，并制定了专属于他们的理想锦囊，孩子们一改往日消极，积极备战高考，实现人生蜕变。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1694217600,
+                "timeType": 3,
+                "runtime": 105,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            }
+        ],
+        "total": 9
+    },
+    "msg": "ok"
+}
