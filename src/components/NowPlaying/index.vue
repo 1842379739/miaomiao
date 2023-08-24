@@ -1,73 +1,60 @@
 <template>
   <div class="movie_body">
     <ul>
-      <li>
-        <div class="pic_show"><img src="/images/movie_1.jpg" alt="" /></div>
+      <li v-for="item in movieList" :key="item.filmId">
+        <div class="pic_show"><img :src="item.poster" alt="" /></div>
         <div class="info_list">
-          <h2>无名之辈</h2>
-          <p>观众评<span class="grade">9.2</span></p>
-          <p>主演：陈建斌，任素汐，潘斌龙</p>
-          <p>今天55家影院放映706场</p>
+          <h2>{{ item.name }}</h2>
+          <p>
+            观众评<span class="grade">{{ item.grade }}</span>
+          </p>
+          <p>
+            主演：
+            {{ item.actors[1].name }} 
+            {{ item.actors[2].name }} 
+            {{ item.actors[3].name }} 
+          </p>
+          <p>{{ item.nation }} | {{ item.runtime }}分钟</p>
         </div>
-        <div class="btn_">购票</div>
-      </li>
-      <li>
-        <div class="pic_show"><img src="/images/movie_1.jpg" alt="" /></div>
-        <div class="info_list">
-          <h2>无名之辈</h2>
-          <p>观众评<span class="grade">9.2</span></p>
-          <p>主演：陈建斌，任素汐，潘斌龙</p>
-          <p>今天55家影院放映706场</p>
-        </div>
-        <div class="btn_">购票</div>
-      </li>
-      <li>
-        <div class="pic_show"><img src="/images/movie_1.jpg" alt="" /></div>
-        <div class="info_list">
-          <h2>无名之辈</h2>
-          <p>观众评<span class="grade">9.2</span></p>
-          <p>主演：陈建斌，任素汐，潘斌龙</p>
-          <p>今天55家影院放映706场</p>
-        </div>
-        <div class="btn_">购票</div>
-      </li>
-      <li>
-        <div class="pic_show"><img src="/images/movie_1.jpg" alt="" /></div>
-        <div class="info_list">
-          <h2>无名之辈</h2>
-          <p>观众评<span class="grade">9.2</span></p>
-          <p>主演：陈建斌，任素汐，潘斌龙</p>
-          <p>今天55家影院放映706场</p>
-        </div>
-        <div class="btn_">购票</div>
-      </li>
-      <li>
-        <div class="pic_show"><img src="/images/movie_1.jpg" alt="" /></div>
-        <div class="info_list">
-          <h2>无名之辈</h2>
-          <p>观众评<span class="grade">9.2</span></p>
-          <p>主演：陈建斌，任素汐，潘斌龙</p>
-          <p>今天55家影院放映706场</p>
-        </div>
-        <div class="btn_">购票</div>
-      </li>
-      <li>
-        <div class="pic_show"><img src="/images/movie_1.jpg" alt="" /></div>
-        <div class="info_list">
-          <h2>无名之辈</h2>
-          <p>观众评<span class="grade">9.2</span></p>
-          <p>主演：陈建斌，任素汐，潘斌龙</p>
-          <p>今天55家影院放映706场</p>
-        </div>
-        <div class="btn_">购票</div>
+        <div class="btn_mall">购票</div>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
+import { computed } from 'vue';
 export default {
   name: "Nowplaying",
+  data(){
+    return{
+      movieList:[]
+    }
+  },
+  
+  mounted() {
+    this.axios({
+      // method: "GET",
+      url: "/gateway?cityId=110100&pageNum=1&pageSize=10&type=1&k=7406298",
+      headers: {
+        "X-Client-Info":
+          '{"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545","bc":"110100"}',
+        "X-Host": "mall.film-ticket.film.list",
+      },
+    }).then((res) => {
+      console.log(res.data.data.films);
+      // for(let i=0; i<res.data.data.films.length; i++){
+      //   // console.log(i);
+      //   console.log(res.data.data.films[i].actors[i+1]);
+
+      // }
+      var msg = res.data.msg
+      if(msg === 'ok'){
+        // console.log('成功');
+        this.movieList = res.data.data.films
+      }
+    });
+  },
 };
 </script>
 

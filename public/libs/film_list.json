@@ -1,0 +1,522 @@
+{
+    "status": 0,
+    "data": {
+        "films": [
+            {
+                "filmId": 6464,
+                "name": "孤注一掷",
+                "poster": "https://pic.maizuo.com/usr/movie/6055722f845f73ab45d5d77d58fc2ea1.jpg",
+                "actors": [
+                    {
+                        "name": "申奥",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/6aa3e66baa1f13870bfd8d6de81e5269.png"
+                    },
+                    {
+                        "name": "张艺兴",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/0f522f3e4bd18e496d97e8c17c05bfc1.png"
+                    },
+                    {
+                        "name": "金晨",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/789399740eb132d44325ba8c3c8d048e.jpeg"
+                    },
+                    {
+                        "name": "咏梅",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/390a71eaeca70de6bbeb2fb2f4dd12d7.jpg"
+                    },
+                    {
+                        "name": "王传君",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/770f8b42d9304c75c16cb7419eed78a0.jpg"
+                    }
+                ],
+                "director": "申奥",
+                "category": "犯罪|剧情",
+                "synopsis": "电影取材自上万起真实诈骗案例，境外网络诈骗全产业链骇人内幕将在大银幕上首度被揭秘。程序员潘生（张艺兴 饰）、模特安娜（金晨 饰）被海外高薪招聘吸引，出国淘金，却意外落入境外诈骗工厂的陷阱。为了离开，两人准备向赌徒阿天（王大陆 饰）和其女友小雨（周也 饰）下手，从他们身上套现、完成业绩……潘生与安娜能否逃过诈骗集团头目陆经理（王传君 饰）和阿才（孙阳 饰）的残暴折磨？面对警察（咏梅 饰）的跨国调查和追捕，他们又会何去何从？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1691712000,
+                "timeType": 3,
+                "runtime": 130,
+                "grade": "7",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6475,
+                "name": "学爸",
+                "poster": "https://pic.maizuo.com/usr/movie/756acd186a52bef02d9b06a0e1f059c5.jpg",
+                "actors": [
+                    {
+                        "name": "苏亮",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/31bdfb025fc6c3d9a18dcc5a99273826.jpg"
+                    },
+                    {
+                        "name": "黄渤",
+                        "role": "雷大力",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f2a4a18bf8cf420b09c0a19d20a4a0fc.jpg"
+                    },
+                    {
+                        "name": "单禹豪",
+                        "role": "雷小米",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/45ad82f78680568b4e4b356934a40fa6.jpg"
+                    },
+                    {
+                        "name": "闫妮",
+                        "role": "刘真真",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/d760dccb352ace3cf12b9a69d457d786.jpg"
+                    },
+                    {
+                        "name": "张钧甯",
+                        "role": "高亚琳",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/57970a3dd17cca49a87a9ea653aeffaf.jpg"
+                    }
+                ],
+                "director": "苏亮",
+                "category": "剧情|家庭",
+                "synopsis": "黄渤强势回归现实主义题材，演绎小人物的命运与挣扎，展现中国万千家庭面貌，“卷不动又躺不平”的人生百态直击人心！雷大力（黄渤 饰）为了让儿子雷小米（单禹豪 饰）能够拥有更高的人生起点，在单亲妈妈刘真真（闫妮 饰）的带领下，被迫卷入了“幼升小”的激烈角逐。又在火哥（张子贤 饰）和火嫂（万茜 饰）的影响下，不惜倾尽所有购入学区房，重重压力让父子二人的生活变得不堪一击。雷小米小姨（张钧甯 饰）的出现，又让雷大力领悟了“拼娃”的本质是“拼父母”……面对残酷的现实，父子的生活困境应该如何破局？几组家庭又将做出怎样的人生抉择？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1692316800,
+                "timeType": 3,
+                "runtime": 118,
+                "grade": "7.9",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6429,
+                "name": "封神第一部：朝歌风云",
+                "poster": "https://pic.maizuo.com/usr/movie/f57040d1983ab2923e53aedb36a00cd4.jpg",
+                "actors": [
+                    {
+                        "name": "乌尔善",
+                        "role": "导演/创意制片人",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/45c0074aee9ede6cbdaa92441291ea4c.jpg"
+                    },
+                    {
+                        "name": "费翔",
+                        "role": "商王殷寿",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/faa37b41f5a372cafe14348b571c42ae.jpg"
+                    },
+                    {
+                        "name": "李雪健",
+                        "role": "西伯侯姬昌",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/6c377dc94628b41e23c924da29cc7ced.jpg"
+                    },
+                    {
+                        "name": "黄渤",
+                        "role": "姜子牙",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f2a4a18bf8cf420b09c0a19d20a4a0fc.jpg"
+                    },
+                    {
+                        "name": "于适",
+                        "role": "姬发",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a05e6c02e6f5df195369793ba45a82d1.jpg"
+                    }
+                ],
+                "director": "乌尔善",
+                "category": "神话|动作|史诗",
+                "synopsis": "中国国民神话史诗大片，震撼视效燃炸暑期！《封神第一部》讲述商王殷寿勾结狐妖妲己，暴虐无道，引发天谴。昆仑仙人姜子牙携“封神榜”下山，寻找天下共主，以救苍生。西伯侯之子姬发逐渐发现殷寿的本来面目，反出朝歌。各方势力暗流涌动，风云变幻端倪初显……三千年想象成真，恢弘史诗再创新，见证中国神话崛起！",
+                "filmType": {
+                    "name": "4D",
+                    "value": 13
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1689811200,
+                "timeType": 3,
+                "runtime": 148,
+                "grade": "7.4",
+                "item": {
+                    "name": "4D",
+                    "type": 13
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5770,
+                "name": "暗杀风暴",
+                "poster": "https://pic.maizuo.com/usr/movie/537d2d8635a6ce61058940460eda2378.jpg",
+                "actors": [
+                    {
+                        "name": "张智霖",
+                        "role": "罗飞",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/8ac5d5d1c5b227515f55a0ecf365f87a.jpg"
+                    },
+                    {
+                        "name": "吴镇宇",
+                        "role": "韩灏",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/39d3432ff8c97c8bdc0f7e8fa6d164a4.jpg"
+                    },
+                    {
+                        "name": "胡杏儿",
+                        "role": "孟芸",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/1b71d1a4843fb95bb3a2abd35014d8d3.jpg"
+                    },
+                    {
+                        "name": "邱礼涛",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/03f51d6fde99eaa0a39cbc5db3d6514b.jpg"
+                    },
+                    {
+                        "name": "古天乐",
+                        "role": "黄少平",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/eeed4920326e45a1b4f9a2a0425ad8ef.jpg"
+                    }
+                ],
+                "director": "邱礼涛",
+                "category": "悬疑|犯罪",
+                "synopsis": "改编自周浩晖豆瓣高分悬疑小说，尺度大开、高能反转！以“审判者”自居的神秘杀手Darker公开挑衅警方，接连发出“死亡通知单”，收到之人都会被残忍处决。为查清真相，爆炸案目击者黄少平（古天乐 饰）、天才警察罗飞（张智霖 饰）、专案组组长韩灏（吴镇宇 饰）纷纷入局。Darker究竟是谁？真相不断反转，惊人的秘密逐渐浮出水面……",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1692316800,
+                "timeType": 3,
+                "runtime": 100,
+                "grade": "7.5",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6458,
+                "name": "巨齿鲨2：深渊",
+                "poster": "https://pic.maizuo.com/usr/movie/ff0c6346f478b8cec25ee1ba25789087.jpg",
+                "actors": [
+                    {
+                        "name": "本·维特利",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/83430205d4c2d81f34e40a125b5bc4c2.jpg"
+                    },
+                    {
+                        "name": "杰森·斯坦森",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/6dd461c2302409b5db39a7bbb0d54dc1.jpg"
+                    },
+                    {
+                        "name": "吴京",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/80f93f06a5fcbbbf0a9085125b2a93b2.jpg"
+                    },
+                    {
+                        "name": "蔡书雅",
+                        "role": "Meiying",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/57c4dfb0c05587e2451539e40216696b.jpg"
+                    },
+                    {
+                        "name": "克利夫·柯蒂斯",
+                        "role": "James 'Mac' Mackreides",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/2c96c58b26df9239212922e2999ea5b0.jpg"
+                    }
+                ],
+                "director": "本·维特利",
+                "category": "冒险|动作|科幻",
+                "synopsis": "海洋霸主巨齿鲨，今夏再掀狂澜！乔纳斯·泰勒（杰森·斯坦森 饰）与科学家张九溟（吴京 饰）双雄联手，进入海底7000米深渊执行探索任务。他们意外遭遇史前巨兽海洋霸主巨齿鲨群的攻击，还将对战凶猛危险的远古怪兽群。惊心动魄的深渊冒险，巨燃巨爽的深海大战一触即发……",
+                "filmType": {
+                    "name": "4D",
+                    "value": 13
+                },
+                "nation": "中国大陆,美国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1691107200,
+                "timeType": 3,
+                "runtime": 116,
+                "grade": "7.4",
+                "item": {
+                    "name": "4D",
+                    "type": 13
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6483,
+                "name": "念念相忘",
+                "poster": "https://pic.maizuo.com/usr/movie/e36096f473478b77cba07cfda4744877.jpg",
+                "actors": [
+                    {
+                        "name": "刘雨霖",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/214f1e41e10cec9306ce446e7e58e818.jpg"
+                    },
+                    {
+                        "name": "刘浩存",
+                        "role": "许念念",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/87ec0d6cf387eea9bf0a4346bf85fbc7.jpg"
+                    },
+                    {
+                        "name": "宋威龙",
+                        "role": "杨燚 / 杨四火",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/5a75ba7a42eef50b96a6105a8276a71a.jpg"
+                    },
+                    {
+                        "name": "卜冠今",
+                        "role": "向语安",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/632ba29c86ce3a0763a637f087d82db3.jpg"
+                    },
+                    {
+                        "name": "郭丞",
+                        "role": "路望",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/1e70a18a58ac2a9a0ae3f9161531c667.jpg"
+                    }
+                ],
+                "director": "刘雨霖",
+                "category": "青春|爱情",
+                "synopsis": "你是否也有一个念念不忘的人？2023七夕，想念不如相见。转校生许念念与少年杨燚因误会结下梁子，水火不容的两人展开一系列比拼，本以为是好胜心作祟，却在不知不觉中萌发了情愫。飒爽的少女与中二的少年，就这样一起度过了热血又难忘的高中时光，最后却遗憾地擦身而过……当念念不忘的两人再次相见，他们能否勇敢一场，排除万难直面内心的喜欢？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1692662400,
+                "timeType": 3,
+                "runtime": 108,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6460,
+                "name": "我经过风暴",
+                "poster": "https://pic.maizuo.com/usr/movie/e1153c4e9376295cd55e0fe2b484f391.jpg",
+                "actors": [
+                    {
+                        "name": "秦海燕",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/e5d0caa847b120434a72bc8135013d1a.jpg"
+                    },
+                    {
+                        "name": "佟丽娅",
+                        "role": "徐敏",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/89d4bb6e9cfdb2ac41925a1aa5364fd1.jpg"
+                    },
+                    {
+                        "name": "吴昱翰",
+                        "role": "陈均",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f53162cfd562abbed3f742cbb9c7f212.jpg"
+                    },
+                    {
+                        "name": "王影璐",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/03d93bae2974d595793f1004712ca00c.jpg"
+                    },
+                    {
+                        "name": "姜瑞霖",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/ec4296157666f4542c60f6578278fb06.jpg"
+                    }
+                ],
+                "director": "秦海燕",
+                "category": "剧情|家庭",
+                "synopsis": "在中国，平均每7.4秒就有一位女性遭受家暴。看似强势独立的徐敏（佟丽娅 饰）有着难以启齿的秘密：她被丈夫陈均（吴昱翰 饰）长期家暴。徐敏不是所有人想象中受害者的模样，她坚毅勇敢且有自己的事业，在与律师李小萌（王影璐 饰）艰难抗争试图离婚的过程中，面对小心谨慎不留证据的丈夫、周遭人冷言冷语嘲讽质疑、社会系统的不作为、为了两个孩子…当离婚不是家暴的终点，当家不是避风港而是暴雨本身，她究竟能否冲破这场风暴？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1692230400,
+                "timeType": 3,
+                "runtime": 101,
+                "grade": "7.6",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6435,
+                "name": "热烈",
+                "poster": "https://pic.maizuo.com/usr/movie/7a65ca156d207509f2105b3b1a48c154.jpg",
+                "actors": [
+                    {
+                        "name": "大鹏",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/75741ac19a8019deccf3a9ba8709dc49.jpg"
+                    },
+                    {
+                        "name": "黄渤",
+                        "role": "丁雷",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f2a4a18bf8cf420b09c0a19d20a4a0fc.jpg"
+                    },
+                    {
+                        "name": "王一博",
+                        "role": "陈烁",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/fd239dabe7f2045116bff76b8be42e91.jpg"
+                    },
+                    {
+                        "name": "刘敏涛",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/4bf2ab2c8af097c628c24f7340e7e461.jpg"
+                    },
+                    {
+                        "name": "岳云鹏",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/40e42ee733fcbc8e1c2a1666022e334f.jpg"
+                    }
+                ],
+                "director": "大鹏",
+                "category": "青春|励志|剧情",
+                "synopsis": "街舞老炮儿丁雷，偶遇卖艺少年陈烁，丁雷忽悠陈烁加入自己经营的舞团。舞团内高手如云，性格各异，与陈烁碰撞出不同的火花，笑料不断。陈烁热烈追梦，期待着上场的机会，却发现丁雷邀请他其实另有目的，而丁雷和陈烁，也都将面对接二连三的沉重打击，他们能否逆风翻盘，回击人生难题？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1690502400,
+                "timeType": 3,
+                "runtime": 124,
+                "grade": "7.2",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6427,
+                "name": "长安三万里",
+                "poster": "https://pic.maizuo.com/usr/movie/1a1374d8f4add341468aa6a5ca3aa9f4.jpg",
+                "actors": [
+                    {
+                        "name": "谢君伟",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/838e207c7797b6b2dbd4d91eb394c8e8.jpeg"
+                    },
+                    {
+                        "name": "邹靖",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/84368a3cd34795987ad144d80978532e.jpeg"
+                    },
+                    {
+                        "name": "杨天翔",
+                        "role": "配音演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/400df217f4fe41b8d17e9807de2bf812.jpeg"
+                    },
+                    {
+                        "name": "凌振赫",
+                        "role": "配音演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f2897608fdf77c764383dac4b66c6f06.jpg"
+                    },
+                    {
+                        "name": "吴俊全",
+                        "role": "配音演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/40ff6adb6fd29d1acceb1959b028fa9f.jpg"
+                    }
+                ],
+                "director": "谢君伟|邹靖",
+                "category": "历史|动画",
+                "synopsis": "安史之乱爆发后数年，吐蕃大军攻打西南。大唐节度使高适交战不利，长安岌岌可危。困守孤城的高适向监军太监回忆起自己与李白的一生往事。",
+                "filmType": {
+                    "name": "4D",
+                    "value": 13
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1688774400,
+                "timeType": 3,
+                "runtime": 168,
+                "grade": "7.9",
+                "item": {
+                    "name": "4D",
+                    "type": 13
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 6486,
+                "name": "燃冬",
+                "poster": "https://pic.maizuo.com/usr/movie/84690e09d25c28b73fafa8346c7bd27c.jpg",
+                "actors": [
+                    {
+                        "name": "陈哲艺",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b9cbd1d33b081ad4d9bd3b849ea71584.jpg"
+                    },
+                    {
+                        "name": "周冬雨",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/6fd569e16306588d15e0f3898ff3be96.jpg"
+                    },
+                    {
+                        "name": "刘昊然",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a7b242f9b8167e42c460d3b96d28a721.jpg"
+                    },
+                    {
+                        "name": "屈楚萧",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/4b52f56805599eafcdb33e84ff8b1d17.jpg"
+                    }
+                ],
+                "director": "陈哲艺",
+                "category": "剧情|爱情",
+                "synopsis": "三个异乡人，一次冬天里的心跳邂逅。娜娜（周冬雨饰）与韩萧（屈楚萧饰）暧昧僵持已久，没想到浩丰（刘昊然饰）的偶然闯入，令他们的关系悄然发生了变化。在心动、试探与矛盾间，三人深埋于心的秘密也逐渐显现…",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1692662400,
+                "timeType": 3,
+                "runtime": 97,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            }
+        ],
+        "total": 51
+    },
+    "msg": "ok"
+}
