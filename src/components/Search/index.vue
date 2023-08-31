@@ -53,13 +53,14 @@ export default {
   watch: {
     // 注意：因为我们的接口和项目中的接口不一致，所以有些功能无法做到与教程中的一模一样
     message(newval) {
+      var cityId = this.$store.state.city.id;
       var that = this;
       this.cancelRequest();
       // console.log(newval);
       this.axios(
         {
           method: "GET",
-          url: "/gateway?cityId=110100&pageNum=1&pageSize=10&type=1&k=5135879",
+          url: `/gateway?cityId=${cityId}&pageNum=1&pageSize=10&type=1&k=5135879`,
           headers: {
             "X-Client-Info":
               '{"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545","bc":"110100"}',
@@ -67,7 +68,7 @@ export default {
           },
         },
         {
-          cancelToken: new this.axios.CancelToken(function(c) {
+          cancelToken: new this.axios.CancelToken(function (c) {
             console.log("1111");
             that.source = c;
           }),

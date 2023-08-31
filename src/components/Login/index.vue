@@ -11,7 +11,7 @@
     </div>
     <div class="login_link">
       <a href="#">立即注册</a>
-      <a href="#">找回密码</a>
+      <a href="#" @click="handlePassword">找回密码</a>
     </div>
   </div>
 </template>
@@ -19,6 +19,11 @@
 <script>
 export default {
   name: "Login",
+  methods: {
+    handlePassword() {
+      console.log("测试");
+    },
+  },
 };
 </script>
 

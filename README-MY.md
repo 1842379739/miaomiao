@@ -46,3 +46,8 @@ X-Host: mall.film-ticket.city.list
 https://m.maizuo.com/gateway?cityId=110100&k=6480924
 X-Client-Info: {"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545","bc":"110100"}
 X-Host: mall.film-ticket.cinema.recommend
+
+城市定位反馈
+https://m.maizuo.com/gateway?k=5217186
+X-Client-Info:  {"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545"}
+X-Host: mall.film-ticket.city.locate
