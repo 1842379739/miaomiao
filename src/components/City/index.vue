@@ -1,31 +1,50 @@
 <template>
   <div class="city_body">
+    <Loading v-if="isLoading"></Loading>
     <div class="city_list">
-      <div class="city_hot">
-        <h2>热门城市</h2>
-        <ul class="clearfix">
-          <li v-for="item in hotList" :key="item.id">
-            {{ item.name }}
-          </li>
-        </ul>
-      </div>
-      <div class="city_sort" ref="city_sort">
-        <!-- 注意：这里的item代表的是cityList的每一项【包括 index 和 list】 -->
-        <div v-for="item in cityList" :key="item.index">
-          <h2>{{ item.index }}</h2>
-          <ul>
-            <!-- 而这里的 item.list，则表示每一个城市 list：{name, id}-->
-            <li v-for="itemList in item.list" :key="itemList.id">
-              {{ itemList.name }}
-            </li>
-          </ul>
+      <!-- 注意：better-scroll 包含多个子节点时，是不生效的，必须是一个子节点 -->
+      <Scroller ref="city_List">
+        <div>
+          <div class="city_hot">
+            <h2>热门城市</h2>
+            <ul class="clearfix">
+              <li
+                v-for="item in hotList"
+                :key="item.cityId"
+                @click="handleToCity(item.name, item.cityId)"
+              >
+                {{ item.name }}
+              </li>
+            </ul>
+          </div>
+          <div class="city_sort" ref="city_sort">
+            <!-- 注意：这里的item代表的是cityList的每一项【包括 index 和 list】 -->
+            <div v-for="item in cityList" :key="item.index">
+              <h2>{{ item.index }}</h2>
+              <ul>
+                <!-- 而这里的 item.list，则表示每一个城市 list：{name, id}-->
+                <li
+                  v-for="itemList in item.list"
+                  :key="itemList.id"
+                  @click="handleToCity(itemList.name, itemList.id)"
+                >
+                  {{ itemList.name }}
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+      </Scroller>
     </div>
+    <!-- 侧边字母栏区域 -->
     <div class="city_index">
       <ul>
         <!-- @touchstart 是一个 JavaScript 事件，它在用户触摸设备的屏幕时触发。它主要用于响应触摸开始时的操作。 -->
-        <li v-for="(item, index) in cityList" :key="item.index" @touchstart="handleToIndex(index)">
+        <li
+          v-for="(item, index) in cityList"
+          :key="item.index"
+          @click="handleToIndex(index)"
+        >
           {{ item.index }}
         </li>
       </ul>
@@ -41,6 +60,7 @@ export default {
     return {
       cityList: [],
       hotList: [],
+      isLoading: true,
     };
   },
   mounted() {
@@ -49,46 +69,69 @@ export default {
     //   console.log(res.data)
     // })
 
-    // 获取 城市 地址
-    this.axios({
-      method: "GET",
-      url: "/gateway?cityId=110100&ticketFlag=1&k=8209617",
-      headers: {
-        "X-Client-Info":
-          '{"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545","bc":"110100"}',
-        "X-Host": "mall.film-ticket.city.list",
-      },
-    }).then((res) => {
-      // console.log(res.data.msg)
-      let msg = res.data.msg;
-      if (msg === "ok") {
-        let cities = res.data.data.cities;
-        // 将得到的数据，整理成如下数据类型
-        // [
-        //   {
-        //     index: 'A',
-        //     list: [
-        //       {
-        //         name: '阿城',
-        //         id: 123
-        //       }
-        //     ]
-        //   }
-        // ]
-        // console.log(cities);
-        // 调用函数 【进行数据格式化】
-        // 定义一个对象，里面两个属性，cityList, hotList，刚好存在于函数返回值的大对象中的两个属性
-        var { cityList, hotList } = this.formatCityList(cities);
-        // 将拿到的值，赋值给状态
-        this.cityList = cityList;
-        this.hotList = hotList;
-      }
-      // console.log(res.data.data.cities)
-      // 循环遍历出所有的城市数据
-      // for(let v in res.data.data.cities){
-      //   console.log(res.data.data.cities[v].name)
-      // }
-    });
+    // 从本地存储获取数据
+    var cityList = window.localStorage.getItem("CityList");
+    var hotList = window.localStorage.getItem("hotList");
+    console.log(cityList);
+    console.log(hotList);
+
+    // 判断：如果cityList和hotList，都存在的时候，那我们就走缓存，否则就发起ajax
+    if (cityList && hotList) {
+      // 解析成原来的对象，并且赋值
+      this.cityList = JSON.parse(cityList);
+      this.hotList = JSON.parse(hotList);
+      // 不要让加载动画影响ajax请求
+      this.Loading = false;
+    } else {
+      // 获取 城市 地址
+      this.axios({
+        method: "GET",
+        url: "/gateway?cityId=110100&ticketFlag=1&k=8209617",
+        headers: {
+          "X-Client-Info":
+            '{"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545","bc":"110100"}',
+          "X-Host": "mall.film-ticket.city.list",
+        },
+      }).then((res) => {
+        // console.log(res.data.msg)
+        let msg = res.data.msg;
+        if (msg === "ok") {
+          let cities = res.data.data.cities;
+          // 将得到的数据，整理成如下数据类型
+          // [
+          //   {
+          //     index: 'A',
+          //     list: [
+          //       {
+          //         name: '阿城',
+          //         id: 123
+          //       }
+          //     ]
+          //   }
+          // ]
+          // console.log(cities);
+          // 调用函数 【进行数据格式化】
+          // 定义一个对象，里面两个属性，cityList, hotList，刚好存在于函数返回值的大对象中的两个属性
+          var { cityList, hotList } = this.formatCityList(cities);
+          // 将拿到的值，赋值给状态
+          this.cityList = cityList;
+          this.hotList = hotList;
+          this.isLoading = false;
+
+          // 本地存储记录数据【本地存储的是字符串类型，所以我们需要将数组对象转化成字符串类型】
+          // 补充：
+          // JSON.stringify 将对象转为 JSON 字符串；
+          // JSON.parse 将 JSON字符串 转为 对象；
+          window.localStorage.setItem("cityList", JSON.stringify(cityList));
+          window.localStorage.setItem("hotList", JSON.stringify(hotList));
+        }
+        // console.log(res.data.data.cities)
+        // 循环遍历出所有的城市数据
+        // for(let v in res.data.data.cities){
+        //   console.log(res.data.data.cities[v].name)
+        // }
+      });
+    }
 
     // 测试影院地址
     // axios({
@@ -193,17 +236,31 @@ export default {
         hotList,
       };
     },
-    handleToIndex(index){
+    handleToIndex(index) {
       // 触发屏幕响应的事件后，获取对应的首字母列表
-      var h2 = this.$refs.city_sort.getElementsByTagName('h2')
+      var h2 = this.$refs.city_sort.getElementsByTagName("h2");
       // console.log(h2[index].offsetTop);
       // h2[index].offsetTop 表示该元素的当前高度
       // parentNode可以获取某个属性的元素的父节点。
       // 注意，parentNode返回的是一个原生的DOM对象，而不是Vue实例。这意味着你无法通过parentNode直接访问到Vue实例中定义的属性或方法。如果需要在组件中访问父组件的属性或方法，可以使用$parent属性来获取父组件的实例。
       // console.log(this.$refs.city_sort.parentNode);
       // 此句代码的功能就是：将当前选中的元素的浏览器高度赋值给当前元素的父节点
-      this.$refs.city_sort.parentNode.scrollTop = h2[index].offsetTop
-    }
+      // this.$refs.city_sort.parentNode.scrollTop = h2[index].offsetTop // 引用了better-scroll之后，原生方法不会生效，我们需要使用better-scroll 提供的方法
+
+      // console.log(h2[index].offsetTop);
+      // console.log(this.$refs.city_List);
+      this.$refs.city_List.toScrollTop(-h2[index].offsetTop);
+    },
+    handleToCity(name, id) {
+      // commit是vuex中的提交同步状态修改的方法
+      this.$store.commit("city/CITY_INFO", { name, id });
+      // 我们这里需要记录一下上次选择的城市信息 和 id，依然是通过本地存储来实现这个功能
+      window.localStorage.setItem("nowName", name);
+      window.localStorage.setItem("nowId", id);
+      // 存储完毕后，在初始化中，进行获取信息即可【store/city/index.js】
+      // 使用编程式导航进行路由跳转
+      this.$router.push("/movie/nowPlaying");
+    },
   },
 };
 </script>

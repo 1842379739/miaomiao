@@ -1,0 +1,12 @@
+{
+    "status": 0,
+    "data": {
+        "city": {
+            "cityId": 440300,
+            "name": "深圳",
+            "pinyin": "shenzhen",
+            "isHot": 1
+        }
+    },
+    "msg": "ok"
+}

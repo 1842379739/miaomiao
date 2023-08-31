@@ -21,9 +21,16 @@ Vue.prototype.axios = axios;
 
 // 全局定义过滤器，作用：将wh，替换成功对应的参数值
 // replace用来替换字符串
-Vue.filter('setWH', (url, arg)=>{
+Vue.filter('setWH', (url, arg) => {
   return url.replace(/w\.h/, arg)
 })
+
+// 全局注册 Scroller，便于各个组件使用
+import Scroller from '@/components/Scroller/index.vue'
+Vue.component('Scroller', Scroller)
+// 全局注册 Loading，便于各个组件使用
+import Loading from '@/components/Loading'
+Vue.component('Loading', Loading)
 
 Vue.config.productionTip = false
 

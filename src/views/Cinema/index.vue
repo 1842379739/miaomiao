@@ -30,7 +30,7 @@ export default {
   components: {
     Header,
     Tabbar,
-    CiList
+    CiList,
   },
 };
 </script>
@@ -45,5 +45,4 @@ export default {
   align-items: center;
   background: white;
 }
-
 </style>
