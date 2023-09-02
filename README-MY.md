@@ -24,6 +24,7 @@ http://39.97.33.178/api/cinemaList?city=10
 城市定位
 http://39.97.33.178/api/getLocation
 ```
+
 ### 卖座电影接口
 正在热映【城市统一为：北京】
 https://m.maizuo.com/gateway?cityId=110100&pageNum=1&pageSize=10&type=1&k=7406298
@@ -51,3 +52,8 @@ X-Host: mall.film-ticket.cinema.recommend
 https://m.maizuo.com/gateway?k=5217186
 X-Client-Info:  {"a":"3000","ch":"1002","v":"5.2.1","e":"1688980404728701331308545"}
 X-Host: mall.film-ticket.city.locate
+
+影院详情
+https://m.maizuo.com/gateway?filmId=6464&k=5949621
+X-Client-Info: {"a":"3000","ch":"1002","v":"5.2.1","e":"16934030736237821522149377"}
+X-Host: mall.film-ticket.film.info

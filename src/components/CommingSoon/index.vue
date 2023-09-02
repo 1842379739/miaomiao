@@ -5,9 +5,9 @@
     <Scroller>
       <ul>
         <li v-for="item in commingList" :key="item.filmId">
-          <div class="pic_show"><img :src="item.poster" alt="" /></div>
+          <div class="pic_show" @click="handleToDetail(item.filmId)"><img :src="item.poster" alt="" /></div>
           <div class="info_list">
-            <h2>{{ item.name }}</h2>
+            <h2 @click="handleToDetail(item.filmId)">{{ item.name }}</h2>
             <p>
               主演：
               {{ item.actors[1].name }}
@@ -63,6 +63,29 @@ export default {
       }
     });
   },
+  methods:{
+    handleToDetail(movieId) {
+      // 路由跳转，name指定跳转路径，params指定携带参数
+      // this.$router.push({
+      //   name: "MyDetail",
+      //   params: {
+      //     movieId,
+      //   },
+      // });
+
+      // 1. 通过路径跳转
+      // this.$router.push(`detail/2/${movieId}`)
+      // 2. 携带参数跳转
+      this.$router.push({
+        name: "MyDetail_2",
+        params: {
+          movieId,
+        },
+      });
+      // 3. 携带参数并与地址相拼接
+      // this.$router.push('detail/1/' + movieId)
+    },
+  }
 };
 </script>
 

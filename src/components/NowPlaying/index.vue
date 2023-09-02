@@ -5,15 +5,16 @@
     <Scroller
       :handleToScroll="handleToScroll"
       :handleToTouchEnd="handleToTouchEnd"
+      :flag="false"
     >
       <ul>
         <li class="pullDownMsg">{{ pullDownMsg }}</li>
         <li v-for="item in movieList" :key="item.filmId">
-          <div class="pic_show" @click="handleToDetail">
+          <div class="pic_show" @click="handleToDetail(item.filmId)">
             <img :src="item.poster" alt="" />
           </div>
           <div class="info_list">
-            <h2>{{ item.name }}</h2>
+            <h2 @click="handleToDetail(item.filmId)">{{ item.name }}</h2>
             <p>
               观众评<span class="grade">{{ item.grade }}</span>
             </p>
@@ -38,8 +39,12 @@ export default {
       movieList: [],
       pullDownMsg: "",
       isLoading: true,
-      prevCityId: -1, // 定义变量，保存之前的城市ID
+      prevCityId: -1, // 定义变量，保存之前的城市 ID
+      flag: false,
     };
+  },
+  mounted() {
+    console.log("111");
   },
   // 需求：我们在走缓存的时候，不会发起ajax，但是切换城市的时候，就要发起ajax，所以我们这里定义一个变量，用来存储城市的id，然后判断 与之前的城市id是否相同，如果相同，则不会继续向下执行，否则，就发起ajax
 
@@ -81,6 +86,7 @@ export default {
         this.isLoading = false;
         // 修改当前城市ID值，替换之前的城市ID值【方便下次id值，进行比较】
         this.prevCityId = cityId;
+        this.flag = true;
 
         // nextTick 方法是 Vue.js 提供的一个异步更新队列的工具。它可以将回调函数推迟到下次 DOM 更新循环之后执行，这样可以确保在更新 DOM 之后再进行一些操作。
 
@@ -131,8 +137,27 @@ export default {
     });
   },
   methods: {
-    handleToDetail() {
-      console.log("handleToDetail");
+    // 错误日志：通过路由跳转页面正常，但是控制台报错：http://localhost:8080/movie/nowPlaying 404 (Not Found)
+    handleToDetail(movieId) {
+      // 路由跳转，name指定跳转路径，params指定携带参数
+      // this.$router.push({
+      //   name: "MyDetail",
+      //   params: {
+      //     movieId,
+      //   },
+      // });
+
+      // 1. 通过路径跳转
+      // this.$router.push(`detail/1/${movieId}`)
+      // 2. 携带参数跳转
+      this.$router.push({
+        name: "MyDetail_1",
+        params: {
+          movieId,
+        },
+      });
+      // 3. 携带参数并与地址相拼接
+      // this.$router.push('detail/1/' + movieId)
     },
     handleToScroll(pos) {
       if (pos.y > 30) {
