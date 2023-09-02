@@ -6,7 +6,8 @@
     <loading v-if="isLoading"></loading>
     <div id="content" class="contentDetail">
       <div class="detail_list">
-        <div class="detail_list_bg"></div>
+        <!-- 注意：这里的背景图片不是很好拼接，需要注意以下引号的位置和细节 -->
+        <div class="detail_list_bg" :style="{'background-image': 'url('+detailMovie.poster+')'}"></div>
         <div class="detail_list_filter"></div>
         <div class="detail_list_content">
           <div class="detail_list_img">
@@ -154,7 +155,7 @@ export default {
 .detail_list .detail_list_bg {
   width: 100%;
   height: 100%;
-  background: url() 0 40%;
+  background: 0 40%;
   filter: blur(20px);
   background-size: cover;
   position: absolute;
