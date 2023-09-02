@@ -1,5 +1,7 @@
 <template>
   <header id="header">
+    <!-- 利用插槽，返回detail组件的左上角的iconfont，小图标 -->
+    <slot></slot>
     <h1>
       {{ title }}
     </h1>

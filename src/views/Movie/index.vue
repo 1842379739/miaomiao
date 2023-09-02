@@ -25,6 +25,8 @@
       </keep-alive>
     </div>
     <Tabbar></Tabbar>
+    <!-- 添加新的路由【同级路由 - 这是路由的命名视图】 -->
+    <router-view name="detail" />
   </div>
 </template>
 
