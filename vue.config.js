@@ -1,5 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  // 修改静态资源的路由根路径【记得修改后重启项目】
+  publicPath: '/miaomiao',
   transpileDependencies: true,
   // 反向代理
   // 因为我们没有用到公网的api，所有我们这里不使用反向代理【该反向代理的代码，只是用来学习】
