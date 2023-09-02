@@ -36,8 +36,8 @@
             <div>
               <img :src="item" alt="" />
             </div>
-            <p>陈建斌</p>
-            <p>马先勇</p>
+            <p>剧照</p>
+            <p>演员详情</p>
           </li>
         </ul>
       </div>
@@ -58,7 +58,7 @@ export default {
     // 在 vue 组件中即使没有任何参数也需要添加 return{} 返回值，如果不加上则当前组件的数据会变成全局可视，则造成变量污染。加上 return{} 则组件数据只能当前组件可视，不会影响到其他组件
     return {
       detailMovie: {},
-      isLoading: true
+      isLoading: true,
     };
   },
   // 接收路由传递过来的参数值
@@ -85,7 +85,7 @@ export default {
       if (msg === "ok") {
         console.log(res.data.data.film);
         this.detailMovie = res.data.data.film;
-        this.isLoading = false
+        this.isLoading = false;
         this.$nextTick(() => {
           new Swiper(this.$refs.detail_player, {
             slidesPerView: "auto",
